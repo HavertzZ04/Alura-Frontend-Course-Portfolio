@@ -125,16 +125,25 @@ strong {
 }
 
 @media (max-width: 1300px) {
+
+    .header {
+        padding: 10%;
+    }
+
+    .header__menu {
+        justify-content: center;
+        gap: 20px
+    }
+
     .presentation {
         flex-direction: column-reverse;
         padding: 5%;
-    }auto
-    .header__menu {
-        justify-content: center;
     }
+
     .presentation__content {
         width: auto;
     }
+    
 }
 
 @media (max-width: 410px) {
